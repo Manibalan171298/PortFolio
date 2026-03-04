@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Balan M | Java Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Mani Balan M, a Java Full Stack Developer specializing in Spring Boot, React JS, and secure web applications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar (Checkbox Hack for Mobile Menu) -->
+    <header class="navbar">
+        <div class="logo">ManiBalan<span class="dot">.</span></div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero-bg.png" alt="Tech Background">
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="animate-up">Mani Balan M</h1>
+            <h2 class="animate-up delay-1">Java Full Stack Developer</h2>
+            <p class="summary animate-up delay-2">
+                Motivated developer with hands-on experience in <strong>Core Java, Spring Boot, REST APIs, and React
+                    JS</strong>.
+                Focused on building secure, scalable, and ATS-compliant enterprise web applications with a clean coding
+                mindset.
+            </p>
+            <div class="cta-buttons animate-up delay-3">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">My Resume</a>
+            </div>
+
+            <div class="stats animate-up delay-4">
+                <div class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <span>Clean Code</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Full Stack</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Secure Apps</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <!-- Backend -->
+                <div class="skill-card">
+                    <div class="icon-box"><i class="fab fa-java"></i></div>
+                    <h3>Backend Development</h3>
+                    <ul class="skill-list">
+                        <li>Java (Core, J2EE)</li>
+                        <li>Spring Boot & Spring MVC</li>
+                        <li>Hibernate / JPA / JDBC</li>
+                        <li>RESTful APIs & Microservices</li>
+                    </ul>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skill-card">
+                    <div class="icon-box"><i class="fab fa-react"></i></div>
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React JS (Basics)</li>
+                        <li>Bootstrap & Responsive UI</li>
+                    </ul>
+                </div>
+
+                <!-- Database & Tools -->
+                <div class="skill-card">
+                    <div class="icon-box"><i class="fas fa-database"></i></div>
+                    <h3>Database & Tools</h3>
+                    <ul class="skill-list">
+                        <li>MySQL (SQL)</li>
+                        <li>Git & GitHub version control</li>
+                        <li>Postman API Testing</li>
+                        <li>Eclipse & VS Code IDEs</li>
+                    </ul>
+                </div>
+
+                <!-- Security -->
+                <div class="skill-card">
+                    <div class="icon-box"><i class="fas fa-lock"></i></div>
+                    <h3>Security & Architecture</h3>
+                    <ul class="skill-list">
+                        <li>Spring Security (Auth/Authz)</li>
+                        <li>MVC Architecture</li>
+                        <li>OOP Principles</li>
+                        <li>Secure Coding Practices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-list">
+
+                <!-- Project 1 -->
+                <article class="project-item">
+                    <div class="project-image">
+                        <img src="assets/project-dashboard.png" alt="Hospital Management System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hospital Management System</h3>
+                        <span class="project-type">Full Stack Application</span>
+                        <p>A comprehensive system for managing healthcare operations securely and efficiently.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Developed RESTful microservices using <strong>Spring
+                                    Boot</strong>.</li>
+                            <li><i class="fas fa-check"></i> Implemented robust authentication and authorization with
+                                <strong>Spring Security</strong>.
+                            </li>
+                            <li><i class="fas fa-check"></i> Designed a responsive and intuitive UI using <strong>HTML,
+                                    CSS, and JavaScript</strong>.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-item reverse">
+                    <div class="project-image">
+                        <img src="assets/project-chat.png" alt="Hotel Finder App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hotel Finder Application</h3>
+                        <span class="project-type">Full Stack Application</span>
+                        <p>A scalable platform for hotel bookings with enhanced security features.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Built scalable microservices architecture using
+                                <strong>Spring Boot</strong>.
+                            </li>
+                            <li><i class="fas fa-check"></i> Integrated <strong>Spring Security</strong> with real-time
+                                OTP authentication for user safety.</li>
+                            <li><i class="fas fa-check"></i> Created responsive user interfaces and consumed REST APIs
+                                with <strong>JavaScript</strong>.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Microservices</span>
+                            <span>OTP Auth</span>
+                            <span>Spring Security</span>
+                            <span>React Basics</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="edu-cert-grid">
+                <div class="education-column">
+                    <h2 class="column-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2022 – 2026 (Pursuing)</span>
+                            <h3>B.Tech – Civil Engineering</h3>
+                            <p>Bharath Institute of Science and Technology, Chennai</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">Completed</span>
+                            <h3>Diploma – Civil Engineering</h3>
+                            <p>Sri Sairam Polytechnic College</p>
+                            <span class="grade">78.89%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-column">
+                    <h2 class="column-title"><i class="fas fa-certificate"></i> Certifications & Achievements</h2>
+                    <ul class="cert-list">
+                        <li>
+                            <div class="cert-icon"><i class="fas fa-medal"></i></div>
+                            <div class="cert-details">
+                                <h3>Java Full Stack Developer Certification</h3>
+                                <p>JSpiders Training Institute</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+                            <div class="cert-details">
+                                <h3>3rd Place – Paper Presentation</h3>
+                                <p>Inter-College Technical Symposium</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cert-icon"><i class="fas fa-campground"></i></div>
+                            <div class="cert-details">
+                                <h3>NCC Camp Training</h3>
+                                <p>Completed successfully demonstrating discipline and teamwork.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strengths -->
+    <section class="strengths-banner">
+        <div class="container">
+            <div class="strength-items">
+                <span><i class="fas fa-brain"></i> Analytical Problem Solving</span>
+                <span><i class="fas fa-bolt"></i> Quick Learner</span>
+                <span><i class="fas fa-users"></i> Team Player</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container contact-container">
+            <h2>Let's Work Together</h2>
+            <p>I am currently open to new opportunities as a Java Full Stack Developer.</p>
+
+            <div class="contact-info">
+                <a href="mailto:manib8388@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>manib8388@gmail.com</span>
+                </a>
+                <a href="tel:+917397242011" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 73972 42011</span>
+                </a>
+                <a href="https://linkedin.com/in/mani-balan-96b9a6363" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn Profile</span>
+                </a>
+                <a href="https://github.com/Manibalan171298" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub Profile</span>
+                </a>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.242944321398!2d80.2520627!3d12.9198642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c8c9509373f%3A0xe5a3bd9a1740920!2sVettuvankeni%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1707923456789!5m2!1sen!2sin"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/mani-balan-96b9a6363" target="_blank" class="social-btn"
+                    title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Manibalan171298" target="_blank" class="social-btn" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>&copy; 2026 Mani Balan M. Built with Clean Code & Design.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
